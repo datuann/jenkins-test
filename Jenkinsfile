@@ -26,7 +26,7 @@ pipeline {
 
         stage('Done') {
             steps {
-                echo 'Pipeline completed successfully!'
+                echo 'Hello Jenkins Webhook!'
             }
         }
     }
